@@ -1,11 +1,18 @@
 package models;
 
-import lombok.Value;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
-@Value
+import java.math.BigDecimal;
+import java.util.List;
+
+@Data
+@AllArgsConstructor
 public class TariffData {
 
     Long tariffId;
     String tariffName;
-
+    BigDecimal tariffPrice;
+    int tariffDuration;
+    List<DiscountOffer> discountOffers;
 }
