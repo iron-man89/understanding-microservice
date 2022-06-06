@@ -1,0 +1,7 @@
+app\models\DiscountOffer.class
+app\tariff\data\provider\TariffDataProviderImpl.class
+app\tariff\data\provider\TariffDataProvider.class
+app\models\TariffData.class
+app\pseudo\dao\TariffDataRepository.class
+app\TariffDataApplication.class
+app\tariffdata\controller\TariffDataController.class
