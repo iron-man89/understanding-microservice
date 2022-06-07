@@ -1,4 +1,4 @@
-package app.tariff.data.provider;
+package app.service.tariffdata;
 
 import app.models.TariffData;
 

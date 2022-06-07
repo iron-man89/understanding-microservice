@@ -1,4 +1,4 @@
-package app.pseudo.dao;
+package app.repository;
 
 import app.models.TariffData;
 import org.springframework.stereotype.Component;

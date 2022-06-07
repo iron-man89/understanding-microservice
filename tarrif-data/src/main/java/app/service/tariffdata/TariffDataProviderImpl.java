@@ -1,9 +1,9 @@
-package app.tariff.data.provider;
+package app.service.tariffdata;
 
 import app.models.TariffData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import app.pseudo.dao.TariffDataRepository;
+import app.repository.TariffDataRepository;
 
 @Service
 public class TariffDataProviderImpl implements TariffDataProvider{
