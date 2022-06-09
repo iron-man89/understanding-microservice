@@ -14,5 +14,5 @@ public class TariffData {
     String tariffName;
     BigDecimal tariffPrice;
     int tariffDuration;
-    List<DiscountOffer> discountOffers;
+    List discountOffers;
 }

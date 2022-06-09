@@ -14,6 +14,7 @@ public class DiscountDataProviderImpl implements DiscountDataProvider{
     private DiscountDataRepository discountDataRepository;
     @Override
     public List<DiscountOffer> getDiscountData(Long tariffId) {
+        discountDataRepository.getDiscountOfferList().clear();
         return discountDataRepository.getDiscountOfferList().stream()
                 .filter(discountOffer -> discountOffer.getTariffId().equals(tariffId)).collect(Collectors.toList());
     }
