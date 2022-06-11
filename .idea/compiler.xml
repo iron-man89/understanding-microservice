@@ -8,17 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tarrif-data" />
+        <module name="eureka-server" />
         <module name="discount-data" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="discount-data" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="tarrif-data" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="discount-data" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="tarrif-data" options="-parameters" />
     </option>
   </component>
