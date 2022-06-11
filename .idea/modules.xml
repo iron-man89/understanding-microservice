@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/discount-data/discount-data.iml" filepath="$PROJECT_DIR$/discount-data/discount-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/tarrif-data/tarrif-data.iml" filepath="$PROJECT_DIR$/tarrif-data/tarrif-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/understanding-microservice.iml" filepath="$PROJECT_DIR$/.idea/understanding-microservice.iml" />
     </modules>
