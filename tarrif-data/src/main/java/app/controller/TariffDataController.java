@@ -24,7 +24,7 @@ public class TariffDataController {
     @GetMapping("/{tariffId}")
     public TariffData getTariffData(@PathVariable("tariffId") Long tariffId) {
         TariffData tariffData = tariffDataProvider.getTariffData(tariffId);
-        List discountOfferList = restTemplate.getForObject("http://localhost:9002/discount/"+tariffId, List.class);
+        List discountOfferList = restTemplate.getForObject("http://discount-data/discount/"+tariffId, List.class);
         tariffData.setDiscountOffers(discountOfferList);
         return tariffData;
 
