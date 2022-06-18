@@ -7,5 +7,4 @@ At the time of creating this repo, I am currently working on Telecom domain, so 
 - run the services (I prefer to run the eureka server first :nerd_face: )
 - go to browser and hit [here](http://localhost:8999/tariffdata/12)
 
-
-![understanding microservices](https://user-images.githubusercontent.com/69397328/174430366-4170e614-8f6e-443e-9366-34033526dad4.svg)
+![understanding microservices](https://user-images.githubusercontent.com/69397328/174430474-2f1cb8c3-0dbf-49d3-b81c-6c9c1c1eb7ab.svg)
